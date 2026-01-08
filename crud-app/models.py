@@ -7,3 +7,4 @@ class Employee(Base):
     name = Column(String, index=True)
     email = Column(String, unique=True, index=True)
 
+ 
